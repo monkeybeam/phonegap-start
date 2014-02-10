@@ -46,6 +46,7 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
-		alert(id);
+		alert("id is " + id);
+		alert(device.name);
     }
 };
