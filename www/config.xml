@@ -16,9 +16,7 @@
         PhoneGap Team
     </author>
 
-	<feature name="Device">
-        <param name="ios-package" value="CDVDevice" />
-    </feature>
+	<feature name="http://api.phonegap.com/1.0/device" />
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
@@ -46,7 +44,7 @@
     <gap:plugin name="org.apache.cordova.media-capture" />
     <gap:plugin name="org.apache.cordova.console" />
     <gap:plugin name="org.apache.cordova.contacts" />
-    <gap:plugin name="org.apache.cordova.device.Device" />
+    <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.device-motion" />
     <gap:plugin name="org.apache.cordova.device-orientation" />
     <gap:plugin name="org.apache.cordova.dialogs" />
