@@ -48,5 +48,6 @@ var app = {
         console.log('Received Event: ' + id);
 		alert("id is " + id);
 		alert(device.name);
+		setTimeout(function(){alert(device.name)},3000);
     }
 };
